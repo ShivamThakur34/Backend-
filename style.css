@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #2013bb;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 90%;
+    height: auto;
+    opacity: 0.8;
+    padding: 50px 20px; /* reduce from 100px if it's too tall */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.section-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+.section-card img {
+    width: 100%;
+    height: 180px;
+}
+
+.section-card h3 {
+    margin-top: 10px;
+    color: #8b0000;
+}
+
+.section-card p {
+    padding: 10px;
+}
+
+.section-card a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #008b5d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+/* About Page Styling */
+.about-page {
+    background-color: black;
+    color: #10b56e; /* Golden text for a royal look */
+    font-family: 'Georgia', serif;
+    padding: 50px;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background: rgba(255, 215, 0, 0.1); /* Subtle golden overlay */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+.about-content h1 {
+    font-size: 40px;
+    color: #ff002d;
+    text-shadow: 2px 2px 5px rgba(0, 15, 255, 0.8); 
+    margin-bottom: 20px;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    color: #ff002d;
+    text-shadow: 2px 2px 5px rgba(0, 15, 255, 0.8);
+    margin-top: 30px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    padding: 10px;
+    border-left: 5px solid #FFD700;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(255, 215, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .about-container {
+        padding: 15px;
+    }
+}
